@@ -1,0 +1,84 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #e21919;
+	/* background-image:url('./pexels-brunoscramgnon-1337825.jpg') !important; */
+}
+
+.hero {
+	background-image: linear-gradient(to bottom, #4CAF50, #3e8e41);
+	color: #e71d1d;
+	padding: 20px;
+	text-align: center;
+	/* background: image: meat 2jpg; */
+}
+
+.new{
+	background-image:url('./meat2.jpg') !important;
+	background-size:cover;
+	background-repeat: no-repeat;
+	opacity: 0.7;
+}
+/* .benefits {
+	background-color: #f0f0f0;
+	padding: 20px;
+} */
+
+.benefits ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.benefits li {
+	margin-bottom: 10px;
+}
+
+/* .features {
+	background-color: #f0f0f0;
+	padding: 20px;
+} */
+
+.features ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.features li {
+	margin-bottom: 10px;
+}
+
+/* .social-proof {
+	background-color: #f0f0f0;
+	padding: 20px;
+} */
+
+.cta {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.cta form {
+	margin-top: 20px;
+}
+
+.cta input[type="email"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+.cta button[type="submit"] {
+	background-color: #3e8e41;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+img{
+	background-image: url(pexels-brunoscramgnon-1337825.jpg);
+}

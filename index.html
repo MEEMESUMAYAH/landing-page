@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Organic Kitchen</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	
+	<div class="hero">
+
+		<h1> ORGANIC KITCHEN</h1>
+			<h2> Nourish Your Body with Organic Goodness</h2>
+		<p>Get fresh, sustainable produce and artisanal food products delivered right to your doorstep</p>
+		<button class="btn">Sign Up Now</button>
+	</div>
+	<div class="new">
+	<div class="benefits">
+		<h2>Why Choose Organic Kitchen?</h2>
+		<ul>
+			<li>Improved health and wellbeing</li>
+			<li>Convenient delivery options</li>
+			<li>Supporting sustainable farming practices</li>
+		</ul>
+	</div>
+	<div class="features">
+		<h2>What You'll Get</h2>
+		<ul>
+			<li>Seasonal organic produce</li>
+			<li>Artisanal food products</li>
+			<li>Customizable boxes</li>
+		</ul>
+	</div>
+	<div class="social-proof">
+		<h2>What Our Customers Say</h2>
+		<p>"I've never tasted fresher produce! Organic Kitchen is a game-changer." - Emily R.</p>
+		<p>"The convenience and quality of Organic Kitchen's service is unmatched." - David K.</p>
+	</div>
+	</div>
+	<div class="cta">
+		<h2>Sign Up Now</h2>
+		<form>
+			<input type="email" placeholder="Enter your email address">
+			<button class="btn">Sign Up</button>
+		</form>
+	</div>
+	<script>
+		// Select elements
+const hero = document.querySelector('.hero');
+const benefits = document.querySelector('.benefits');
+const features = document.querySelector('.features');
+const socialProof = document.querySelector('.social-proof');
+const cta = document.querySelector('.cta');
+const form = document.querySelector('form');
+const emailInput = document.querySelector('input[type="email"]');
+
+// Add event listeners
+form.addEventListener('submit', handleFormSubmit);
+emailInput.addEventListener('input', handleEmailInput);
+
+// Functions
+function handleFormSubmit(e) {
+	e.preventDefault();
+	const email = emailInput.value;
+	// Add code to submit the form and display a success message
+}
+
+function handleEmailInput() {
+	const email = emailInput.value;
+	// Add code to validate the email address and display an error message if invalid
+}
+
+// Add animation to hero section
+hero.addEventListener('mouseenter', () => {
+	hero.classList.add('animate');
+});
+hero.addEventListener('mouseleave', () => {
+	hero.classList.remove('animate');
+});
+	</script>
+</body>
+</html>
